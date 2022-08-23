@@ -19,6 +19,9 @@
 
     function getLinksAsMarkdown() {
         var markdown_links = "";
+
+        markdown_links += '[' + document.title + '](' + window.location.href + ')\n\n';
+
         var elements = document.querySelectorAll("h3");
         for (var element of elements) {
             var title = element.innerText ;
