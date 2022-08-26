@@ -33,7 +33,7 @@
             }
             var markdown_link = "- [ ] [" + title + "](" + url + ")\n";
             //markdown_link += "\t- [[My notes on " + title + "]]\n";
-            markdown_link += "![[" + title + "]]\n\n";
+            //markdown_link += "![[" + title + "]]\n\n";
             markdown_links += markdown_link
         }
         GM_setClipboard(markdown_links);
