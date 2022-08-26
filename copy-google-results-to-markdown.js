@@ -2,7 +2,7 @@
 // ==UserScript==
 // @name         Copy links from google search to clipboard in markdown format
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.0.1
 // @description  Copy all google search result links on the current page into the clipboard in Markdown format
 // @author       jkindrix
 // @match        *://www.google.com/search?*
