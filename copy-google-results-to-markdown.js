@@ -28,7 +28,7 @@
             } catch (error) {
                 continue;
             }
-            var markdown_link = "[" + title + "](" + url + ")\n";
+            var markdown_link = "- [ ] [" + title + "](" + url + ")\n";
             markdown_links += markdown_link
         }
         GM_setClipboard(markdown_links);
