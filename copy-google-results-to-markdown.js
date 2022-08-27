@@ -2,7 +2,7 @@
 // ==UserScript==
 // @name         Copy links from google search to clipboard in markdown format
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      0.1
 // @description  Copy all google search result links on the current page into the clipboard in Markdown format
 // @author       jkindrix
 // @match        *://www.google.com/search?*
@@ -19,9 +19,6 @@
 
     function getLinksAsMarkdown() {
         var markdown_links = "";
-
-        markdown_links += '[' + document.title + '](' + window.location.href + ')\n\n';
-
         var elements = document.querySelectorAll("h3");
         for (var element of elements) {
             var title = element.innerText ;
@@ -31,9 +28,7 @@
             } catch (error) {
                 continue;
             }
-            var markdown_link = "- [ ] [" + title + "](" + url + ")\n";
-            //markdown_link += "\t- [[My notes on " + title + "]]\n";
-            //markdown_link += "![[" + title + "]]\n\n";
+            var markdown_link = "[" + title + "](" + url + ")\n";
             markdown_links += markdown_link
         }
         GM_setClipboard(markdown_links);
