@@ -12,6 +12,7 @@
 // @grant        GM_setValue
 // @grant        GM_addStyle
 // @run-at       document-end
+// @downloadURL https://raw.githubusercontent.com/jkindrix/UserScripts/main/copy-google-results-to-markdown.js
 // ==/UserScript==
 
 (function() {
