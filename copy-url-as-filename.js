@@ -7,9 +7,9 @@
 // @match        *://*/*
 // @grant        GM_addStyle
 // @grant        GM_setClipboard
-// @require       https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // @run-at       document-end
-// @downloadURL https://raw.githubusercontent.com/jkindrix/UserScripts/main/copy-url-as-filename.js
+// @downloadURL  https://raw.githubusercontent.com/jkindrix/UserScripts/main/copy-url-as-filename.js
 // ==/UserScript==
 
 /* globals jQuery, $, waitForKeyElements */
