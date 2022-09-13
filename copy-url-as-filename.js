@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copy URL as filename
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      0.1
 // @description  Copy URL and convert it to a filename
 // @author       Justin Kindrix
 // @match        *://*/*
