@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copy URL as markdown
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      0.1
 // @description  Copy a page's h1 text and URL and convert it to a markdown link
 // @author       Justin Kindrix
 // @match        *://*/*
